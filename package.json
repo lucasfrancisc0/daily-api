@@ -1,0 +1,25 @@
+{
+  "name": "daily",
+  "version": "1.0.0",
+  "description": "- [] Deve ser possível criar um usuário;\r - [] Deve ser possível identificar o usuário entre as requisições;\r - [] Deve ser possível registrar uma refeição feita, com as seguintes informações:\r       - Nome;\r       - Descrição;\r       - Data e Hora;\r       - Está dentro ou não da dieta.\r - [] Deve ser possível editar uma refeição, podendo alterar todos os dados acima;\r - [] Deve ser possível apagar uma refeição;\r - [] Deve ser possível listar todas as refeições de um usuário;\r - [] Deve ser possível visualizar uma única refeição;\r - [] Deve ser possível recuperar as métricas de um usuário;\r     - Quantidade total de refeições registradas;\r     - Quantidade total de refeições dentro da dieta;\r     - Quantidade total de refeições fora da dieta;\r     - Melhor sequência de refeições dentro da dieta.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "sqlite3": "^5.1.7",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^9.3.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "knex": "^3.1.0",
+    "zod": "^3.23.8"
+  }
+}
